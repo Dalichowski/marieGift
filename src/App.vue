@@ -25,7 +25,7 @@
       Un autre indice ?
     </NButton>
     <NButton type="primary" @click="step = 2" class="mt-5">
-      Non, j'ai la réponse<fa :icon="['fad', 'chevron-right']" class="ml-2" />
+      Non, j'ai la réponse
     </NButton>
   </div>
 
@@ -35,7 +35,7 @@
     <img src="@/assets/orlando_bloom.jpg" />
 
     <NButton type="primary" @click="Object.assign(this, { secondClue: false, step: 2})" class="mt-5">
-      Suivant <fa :icon="['fad', 'chevron-right']" class="ml-2" />
+      Suivant
     </NButton>
   </div>
 
@@ -43,7 +43,7 @@
     Entre ta réponse:
     <NInput v-model:value="answerOne" />
     <NButton type="primary" class="mt-5" @click="checkAnswerOne">
-      VALIDER <fa :icon="['fad', 'chevron-right']" class="ml-2" />
+      VALIDER
     </NButton>
   </div>
 
@@ -70,7 +70,7 @@
       Un autre indice ?
     </NButton>
     <NButton type="primary" @click="step = 5" class="mt-5">
-      Non, j'ai la réponse<fa :icon="['fad', 'chevron-right']" class="ml-2" />
+      Non, j'ai la réponse
     </NButton>
   </div>
 
@@ -80,7 +80,7 @@
     <img src="@/assets/dr_house.jpg" />
 
     <NButton type="primary" @click="Object.assign(this, { fourthClue: false, step: 5})" class="mt-5">
-      Suivant <fa :icon="['fad', 'chevron-right']" class="ml-2" />
+      Suivant
     </NButton>
   </div>
 
@@ -88,7 +88,7 @@
     Entre ta réponse:
     <NInput v-model:value="answerTwo" />
     <NButton type="primary" class="mt-5" @click="checkAnswerTwo">
-      VALIDER <fa :icon="['fad', 'chevron-right']" class="ml-2" />
+      VALIDER
     </NButton>
   </div>
 
